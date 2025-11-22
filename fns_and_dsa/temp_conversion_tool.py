@@ -22,5 +22,5 @@ if type(temp).__name__ == "float":
     else:
         print("Please enter 'C' or 'F'.")
 else:
-    print("Enter numbers only")
+    print("Invalid temperature. Please enter a numeric value.")
 
