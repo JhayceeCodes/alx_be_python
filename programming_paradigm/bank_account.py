@@ -18,11 +18,5 @@ class BankAccount:
     def display_balance(self):
         print(f"Current Balance: ${self.account_balance}")
 
-mybank = BankAccount(100)
-mybank.display_balance()
-mybank.deposit(50)
-mybank.display_balance()
-mybank.withdraw(100)
-print(mybank.withdraw(50))
-mybank.display_balance()
+
 
