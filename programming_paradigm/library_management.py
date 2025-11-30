@@ -10,7 +10,7 @@ class Book:
             return True
         return False
     
-    def return_book (self):
+    def return_book(self):
         if self._is_checked_out:
             self._is_checked_out = False
             return True
