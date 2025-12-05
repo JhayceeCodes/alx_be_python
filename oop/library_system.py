@@ -32,12 +32,12 @@ class Library:
             if str(book) == "Book":
                 print(f"Book: {book.title} by {book.author}")
             elif str(book) == "EBook":
-                print(f"EBook: {book.title} by {book.author}, File Size: {book.file_size}")
+                print(f"EBook: {book.title} by {book.author}, File Size: {book.file_size}KB")
             elif str(book) == "PrintBook":
                 print(f"PrintBook: {book.title} by {book.author}, Page Count: {book.page_count}")
             else:
                 print("Book type not found.")
-                
+
             """match str(book):
                 case "Book":
                     print(f"Book: {book.title} by {book.author}")
