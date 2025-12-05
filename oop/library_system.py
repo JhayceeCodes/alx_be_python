@@ -29,15 +29,16 @@ class Library:
     def list_books(self):
         for book in self.books:
             
-            """if book_type == "Book":
+            if str(book) == "Book":
                 print(f"Book: {book.title} by {book.author}")
-            elif book_type == "EBook":
+            elif str(book) == "EBook":
                 print(f"EBook: {book.title} by {book.author}, File Size: {book.file_size}")
-            elif book_type == "PrintBook":
+            elif str(book) == "PrintBook":
                 print(f"PrintBook: {book.title} by {book.author}, Page Count: {book.page_count}")
             else:
-                print("Book type not found.")"""
-            match str(book):
+                print("Book type not found.")
+                
+            """match str(book):
                 case "Book":
                     print(f"Book: {book.title} by {book.author}")
                 case "EBook":
@@ -45,4 +46,4 @@ class Library:
                 case "PrintBook":
                     print(f"PrintBook: {book.title} by {book.author}, Page Count: {book.page_count}")
                 case _:
-                    print("Book type not found.")
+                    print("Book type not found.")"""
